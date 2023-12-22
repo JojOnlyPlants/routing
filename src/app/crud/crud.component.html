@@ -1,0 +1,16 @@
+<p>crud works!</p>
+<div>
+    <!-- Botón para obtener todos los usuarios -->
+
+
+    <!-- Botón para obtener un usuario por ID -->
+    <!-- Asegúrate de reemplazar '1' con el ID del usuario que quieres obtener -->
+   
+
+    <!-- Aquí puedes mostrar los usuarios obtenidos -->
+    <div *For="let usuario of usuarios$ | async">
+        <!-- Asegúrate de reemplazar 'nombre' y 'email' con las propiedades reales de tus usuarios -->
+        <p>Nombre: {{usuario.nombre}}</p>
+ 
+    </div>
+</div>
